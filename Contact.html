@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travellex </title>
+
+    <link rel="shortcut icon" href="trav.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+        integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="main.css">
+
+    <script src="Contact.js"></script>
+
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-5 col-sm-5 col-md-6 col-lg-6 col-xl-6">
+                    <img src="images/trav.png" class="img-fluid mx-auto"
+                        style="height:120px; width: 120px; margin-left: 100px;">
+                </div>
+
+                <div class="col-7 col-sm-7 col-md-6 col-lg-6 col-xl-6">
+                    <form class="form-inline" style="margin-top: 35px; margin-left: -20px;">
+                        <div class="input-group">
+                            <input class="form-control custom-input" type="text" placeholder="Search....">
+                            <button type="button" class="btn btn-success suc-input">Search</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <nav class="navbar navbar-expand-md  navbar-dark sticky-top" style="background-color: rgb(0, 0, 75);">
+		<div class="container-fluid" >
+
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav mx-auto">
+
+
+                    <li class="nav-item"><a class="nav-link" href="index.html"
+                            style="width: 110px; text-align: center; color: white;">Home</a></li>
+
+                    <li class="nav-item"><a class="nav-link" href="destination.html"
+                            style="width: 160px; text-align: center; color: white;">Destinations</a></li>
+
+                    <li class="nav-item"><a class="nav-link" href="tour.html"
+                            style="width: 160px; text-align: center; color: white;">Tour Packages</a></li>
+
+                    <li class="nav-item"><a class="nav-link" href="blog.html"
+                            style="width: 110px; text-align: center; color: white;">Travel Blogs</a></li>
+
+                    <li class="nav-item active" style="border-bottom: 3px solid #ffffff; font-size: 17px;"><a
+                            class="nav-link" href="Contact.html"
+                            style="width: 110px; text-align: center; color: white;">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <br>
+
+    <section>
+
+        <div class="container">
+            <div class="contact" style="border:3px solid  #040036; border-radius: 20px;">
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                        <h3 style="text-align: center; padding-top: 15px; ">PLAN YOUR HOLIDAYS WITH OUR ASSISTANCE, <br>
+                            JUST FILL IN YOUR DETAILS.</h3><br>
+                    </div><br><br>
+
+                    <div class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8 mx-auto">
+                        <form class="form-inline" name="form1" class="frm_message" method="post" autocomplete="off"
+                            onsubmit="return Reg()" style="padding-bottom: 20px;">
+
+                            <!-- Name -->
+                            <div class="form-group na-me">
+                                <label for="Fname">&nbsp;First Name: &nbsp;&nbsp;</label>
+                                <input type="text" class="form-control f-name" id="Fname" placeholder="Enter First Name"
+                                    name="Fname" required=""><span id="Fnamemsg"></span>
+                            </div>&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                            <!-- last Name -->
+                            <div class="form-group l-name">
+                                <label for="Lname">&nbsp;Last Name: &nbsp;&nbsp;</label>
+                                <input type="text" class="form-control" id="Lname" placeholder="Enter Last Name"
+                                    name="Lname" required=""><span id="Lnamemsg" required=""></span>
+                            </div><br><br><br>
+
+                            <!-- contact number  -->
+
+                            <div class="form-group c-num">
+                                <label for="Cnumber">&nbsp;Contact No: &nbsp;</label>
+                                <input type="number" class="form-control" id="Cnumber" placeholder="Enter Contact No"
+                                    name="Cnumber" required=""> <span id="mobilemsg"></span>
+                            </div>&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                            <!-- email -->
+
+                            <div class="form-group e-mail">
+                                <label for="email">Email:
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                                <input type="email" class="form-control" id="email" placeholder="Enter Email"
+                                    name="email" required=""> <span id="emailmsg"></span>
+                            </div><br><br><br>
+
+                            <!-- age  -->
+
+                            <div class="form-group age">
+                                <label for="age">Age: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                                <input type="number" class="form-control" id="age" placeholder="Enter Age" name="age" required=""> <span id="agemsg"></span>
+                          </div>&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+
+
+                            <div class="form-check gen-der">
+                                <label>Gender: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                                <label style="font-weight: normal; font-size: 17px;" class="form-check-label male" >
+                                    
+                                    <input type="radio" class="form-check-input rad" name="gender">Male
+                                </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                                <label style="font-weight: normal; font-size: 17px;" class="form-check-label">
+                                    <input type="radio" class="form-check-input rad" name="gender">Female
+                                </label><span id="gendermsg"></span>
+                            </div>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    </div>
+
+                    <input type="submit" name="" value="SUBMIT"
+                        class="btn btn-primary sub-mit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input style="font-size: 18px; width: 120px; margin-top: 10px; margin-bottom: 15px;" type="Reset"
+                        name="" value="RESET" class="btn btn-danger">
+
+                    </form>
+
+                </div>
+            </div>
+        </div>
+        </div>
+    </section><br>
+
+    <footer class="fot-er">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                <h4>@ 2024 Travellex Agency. All Copy Rights Reserved. </h4>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

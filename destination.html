@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travellex </title>
+
+    <link rel="shortcut icon" href="trav.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+        integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="main.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-5 col-sm-5 col-md-6 col-lg-6 col-xl-6">
+                    <img src="images/trav.png" class="img-fluid mx-auto"
+                        style="height:120px; width: 120px; margin-left: 100px;">
+                </div>
+
+                <div class="col-7 col-sm-7 col-md-6 col-lg-6 col-xl-6">
+                    <form class="form-inline" style="margin-top: 35px; margin-left: -20px;">
+                        <div class="input-group">
+                            <input class="form-control custom-input" type="text" placeholder="Search....">
+                            <button type="button" class="btn btn-success suc-input">Search</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <nav class="navbar navbar-expand-md  navbar-dark sticky-top" style="background-color: rgb(0, 0, 75);">
+		<div class="container-fluid" >
+
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+
+
+
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav mx-auto">
+
+                    <li class="nav-item active"><a class="nav-link" href="index.html"
+                            style="width: 110px; text-align: center; color: white;">Home</a></li>
+
+                    <li class="nav-item active" style="border-bottom: 3px solid #ffffff; font-size: 17px;"><a
+                            class="nav-link" href="destination.html"
+                            style="width: 110px; text-align: center; color: white;">Destinations</a></li>
+
+                    <li class="nav-item active"><a class="nav-link" href="tour.html"
+                            style="width: 160px; text-align: center; color: white;">Tour Packages</a></li>
+
+                    <li class="nav-item"><a class="nav-link" href="blog.html"
+                            style="width: 110px; text-align: center; color: white;">Travel Blogs</a></li>
+
+                    <li class="nav-item"><a class="nav-link" href="Contact.html"
+                            style="width: 110px; text-align: center; color: white;">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div id="demo" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                <li data-target="#demo" data-slide-to="1"></li>
+                <li data-target="#demo" data-slide-to="2"></li>
+                <li data-target="#demo" data-slide-to="3"></li>
+
+            </ul>
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+
+                <div class="carousel-item active">
+                    <a href="destination.html#hima"><img src="images/hima.jpg" alt="img" width="100%"
+                            height="500"></a>
+                    <div class="carousel-caption">
+                        <h1><a href="destination.html#hima" style="color: white;"></a>Himachal</h1>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <a href="destination.html#veitnam"><img src="images/corvietnam.jpg"  alt="img"
+                            width="100%" height="500"></a>
+                    <div class="carousel-caption">
+                        <h1><a href="destination.html#veitnam" style="color: rgb(241, 237, 237);"></a>Vietnam</h1>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <a href="destination.html#japan"><img src="images/corjapan.jpg"  alt="img" width="100%" height="500"></a>
+                    <div class="carousel-caption">
+                        <h1><a href="destination.html#japan" style="color: rgb(243, 238, 238);"></a>Japan</h1>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <a href="destination.html#kerala"><img src="images/kerla.jpg"  alt="img" width="100%" height="500"></a>
+                    <div class="carousel-caption">
+                        <h1><a href="destination.html#kerala" style="color: rgb(243, 238, 238);"></a>Kerala</h1>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div><br>
+        <section>
+            
+            <div id="Tours">
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                        <h1 style="text-align: center;" id="hima">-Plan Your Trips -</h1><br>
+                    </div>
+                </div>
+            </div>
+
+            <div id="accordion">
+                <div class="card">
+                    <div class="card-header bg-dark">
+                        <a class="card-link" data-toggle="collapse" href="#collapseOne">
+                            <h4 >1. <u>Himachal</u></h4>
+                        </a>
+                    </div>
+                    <div id="collapseOne" class="collapse show" data-parent="#accordion">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                                    <img id="img" src="images/himachal.png" class="img-thumbnail img-fluid" height="200"
+                                        width="580">
+
+                                        <br> <br>
+
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-starcchecked"></span>
+                                    <span class="fa fa-star"></span>
+                                    (300 Reviews)
+
+
+                                    <h2>starting from</h2>
+                                    <h4>45,999/-</h4>
+
+                                    <button type="button" class="btn btn"style="background-color: rgb(0, 0, 100); color: white;">Book Now</button> <br>
+
+                                    <a href="#">Sign In for Member Price</a>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                                    <p style="font-size: 18px; line-height: 27px; text-align:justify;"><b>-</b> Himachal
+                                        Pradesh is a captivating destination that offers breathtaking landscapes, a rich
+                                        cultural heritage, and countless opportunities for adventure and relaxation.
+                                        Known as the "Land of Gods," it is home to serene valleys, snow-capped peaks,
+                                        and tranquil rivers, making it a haven for travelers seeking both excitement and
+                                        peace.<br><br>
+                                        <b>-</b> Explore quaint hill stations like Shimla, Manali, and Dalhousie, each
+                                        offering its unique charm. Immerse yourself in the vibrant local culture through
+                                        visits to ancient temples, monasteries, and traditional villages. <br><br>
+                                        <b>1.Mesmerizing Natural Beauty: Experience the serene valleys, snow-capped
+                                            mountains, and pristine rivers that define Himachal Pradesh.</b> <br>
+                                        <b id="kerala">2.Adventure and Thrill: Indulge in trekking, paragliding, river rafting, and
+                                            skiing amidst breathtaking landscapes.
+                                        </b> <br>
+
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="accordion">
+                <div class="card" >
+                    <div class="card-header bg-dark">
+                        <a class="card-link" data-toggle="collapse" href="#collapsetwo">
+                            <h4 >2. <u>Kerala</u></h4>
+                        </a>
+                    </div>
+                    <div id="collapsetwo" class="collapse show" data-parent="#accordion">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                                    <img id="img" src="images/keralaaa.avif" class="img-thumbnail img-fluid"
+                                        height="200" width="580">
+
+                                        <br> <br>
+
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                    (160 Reviews)
+
+
+                                    <h2>starting from</h2>
+                                    <h4>40,999/-</h4>
+
+                                    <button type="button" class="btn btn"style="background-color: rgb(0, 0, 100); color: white;">Book Now</button> <br>
+
+                                    <a href="#">Sign In for Member Price</a>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                                    <p style="font-size: 18px; line-height: 27px; text-align:justify;"><b>-</b> Kerala,
+                                        known as "God's Own Country," is a tropical paradise offering lush greenery,
+                                        serene backwaters, and golden beaches. From the misty hills of Munnar to the
+                                        tranquil backwaters of Alleppey, Kerala provides a unique blend of natural
+                                        beauty and cultural richness. A houseboat ride and the aroma of spices in the
+                                        air make the experience unforgettable.<br><br>
+
+                                        <b>-</b>Famous for its Ayurveda and wellness retreats, Kerala also showcases
+                                        vibrant traditions like Kathakali dance and delicious cuisine. Whether it’s
+                                        adventure, relaxation, or cultural immersion, Kerala promises a rejuvenating and
+                                        memorable getaway. <br><br>
+
+                                        <b>1.Serene Backwaters: Glide through the peaceful backwaters on a traditional
+                                            houseboat.</b> <br>
+                                        <b id="rajasthan">2.Scenic Hill Stations: Explore tea plantations and stunning views in Munnar
+                                            and Wayanad.</b> <br>
+
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="accordion">
+                <div class="card">
+                    <div class="card-header bg-dark">
+                        <a class="card-link" data-toggle="collapse" href="#collapsefive">
+                            <h4 id="JumpRope">3. <u>Rajasthan</u></h4>
+                        </a>
+                    </div>
+                    <div id="collapsefive" class="Rajasthan" data-parent="#accordion">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                                    <img id="img" src="images/rajasthan.jpg" class="img-thumbnail img-fluid"
+                                        height="200" width="580">
+
+                                        <br> <br>
+
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    (100 Reviews)
+
+
+                                    <h2>starting from</h2>
+                                    <h4>35,999/-</h4>
+
+                                    <button type="button" class="btn btn"style="background-color: rgb(0, 0, 100); color: white;">Book Now</button> <br>
+
+                                    <a href="#">Sign In for Member Price</a>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                                    <p style="font-size: 18px; line-height: 27px; text-align:justify;"><b>-</b>
+                                        Rajasthan, the "Land of Kings," is known for its rich history, grand palaces,
+                                        and majestic forts. From the golden sands of the Thar Desert to the
+                                        architectural wonders of Jaipur, Udaipur, and Jodhpur, Rajasthan captures the
+                                        essence of Indian royalty. Its traditional music, colorful festivals, and unique
+                                        handicrafts add to the charm, offering travelers a glimpse into a regal past.
+                                        <br><br>
+
+                                        <b>-</b> Explore the opulent City Palace, enjoy camel rides in Jaisalmer, or
+                                        marvel at Udaipur’s serene lakes. With warm hospitality and delectable cuisine,
+                                        Rajasthan ensures a journey full of culture, adventure, and unforgettable
+                                        experiences.<br><br>
+
+                                        <b>1.Majestic Palaces and Forts: Discover Amber Fort, Mehrangarh Fort, and the
+                                            City Palace.</b> <br>
+                                        <b id="veitnam">2.Desert Adventures: Enjoy camel safaris and sand dunes in Jaisalmer and
+                                            Pushkar.</b> <br>
+
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="accordion">
+                <div class="card">
+                    <div class="card-header bg-dark">
+                        <a class="card-link" data-toggle="collapse" href="#collapsethree">
+                            <h4 id="Cycling">4. <u>Vietnam</u></h4>
+                        </a>
+                    </div>
+                    <div id="collapsethree" class="collapse show" data-parent="#accordion">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                                    <img id="img" src="images/corvietnam.jpg" class="img-thumbnail img-fluid"
+                                        height="200" width="580">
+
+                                        <br> <br>
+
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                    (120 Reviews)
+
+
+                                    <h2>starting from</h2>
+                                    <h4>50,999/-</h4>
+
+                                    <button type="button" class="btn btn"style="background-color: rgb(0, 0, 100); color: white;">Book Now</button> <br>
+
+                                    <a href="#">Sign In for Member Price</a>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                                    <p style="font-size: 18px; line-height: 27px; text-align:justify;"><b>-
+                                        </b>Vietnam is a land of stunning landscapes and vibrant culture, perfect for
+                                        travelers. From the lush rice terraces of Sapa to the serene waters of Halong
+                                        Bay, it offers breathtaking natural beauty. Bustling cities like Hanoi and Ho
+                                        Chi Minh City blend tradition and modernity, with lively markets and incredible
+                                        street food. <br><br>
+
+                                        <b>-</b>The country's rich history and diverse culture captivate visitors.
+                                        Ancient temples, colonial architecture, and Vietnam War relics tell its story,
+                                        while warm hospitality and unique traditions make every visit
+                                        unforgettable.<br><br>
+
+
+
+                                        <b>1.Explore iconic destinations like Halong Bay, Hoi An, and Hanoi's Old
+                                            Quarter.</b> <br>
+                                        <b id="japan">2.Enjoy delicious street food like pho, banh mi, and spring rolls.</b> <br>
+
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="accordion">
+                <div class="card">
+                    <div class="card-header bg-dark">
+                        <a class="card-link" data-toggle="collapse" href="#collapsefour">
+                            <h4 id="Swimming">5. <u>Japan</u></h4>
+                        </a>
+                    </div>
+                    <div id="collapsefour" class="collapse show" data-parent="#accordion">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                                    <img id="img" src="images/corjapan.jpg" class="img-thumbnail img-fluid" height="200"
+                                        width="580">
+
+                                        <br> <br>
+
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                    (190 Reviews)
+
+
+                                    <h2>starting from</h2>
+                                    <h4>70,999/-</h4>
+
+                                    <button type="button" class="btn btn"style="background-color: rgb(0, 0, 100); color: white;">Book Now</button> <br>
+
+                                    <a href="#">Sign In for Member Price</a>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                                    <p style="font-size: 18px; line-height: 27px; text-align:justify;"><b>-</b>
+                                        Japan is a perfect blend of ancient traditions and modern innovation. From the
+                                        historic temples of Kyoto to the bustling streets of Tokyo, it offers a unique
+                                        experience for every traveler. Scenic wonders like Mount Fuji and cherry
+                                        blossoms add to the country's timeless beauty.
+                                        <br><br>
+
+                                        <b>-</b> The culture in Japan is equally captivating, with rituals like tea
+                                        ceremonies and sumo wrestling showcasing its heritage. Visitors can also indulge
+                                        in world-renowned cuisine, including sushi, ramen, and matcha delicacies, making
+                                        Japan a destination full of unforgettable memories. <br><br>
+
+                                        <b>1.Discover iconic landmarks like Mount Fuji, Kyoto’s temples, and Tokyo’s
+                                            skyline.</b> <br>
+                                        <b id="dubai">2.Experience traditional culture through tea ceremonies, kimonos, and
+                                            festivals.</b> <br>
+
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div id="accordion">
+                <div class="card">
+                    <div class="card-header bg-dark">
+                        <a class="card-link" data-toggle="collapse" href="#collapsefour">
+                            <h4 id="Swimming">6. <u>Dubai</u></h4>
+                        </a>
+                    </div>
+                    <div id="collapsefour" class="collapse show" data-parent="#accordion">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                                    <img id="img" src="images/dpalm.png" class="img-thumbnail img-fluid" height="200"
+                                        width="580">
+
+                                        <br> <br>
+
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    (150 Reviews)
+
+
+                                    <h2>starting from</h2>
+                                    <h4>90,999/-</h4>
+
+                                    <button type="button" class="btn btn"style="background-color: rgb(0, 0, 100); color: white;">Book Now</button> <br>
+
+                                    <a href="#">Sign In for Member Price</a>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                                    <p style="font-size: 18px; line-height: 27px; text-align:justify;"><b>-</b>
+                                        Dubai is a city of luxury, innovation, and breathtaking architecture. Known for
+                                        iconic landmarks like the Burj Khalifa and Palm Jumeirah, it offers travelers a
+                                        blend of modern marvels and cultural heritage. Its vast deserts, pristine
+                                        beaches, and vibrant souks create a diverse experience.
+                                        <br><br>
+
+                                        <b>-</b>Beyond the glitz and glamour, Dubai boasts rich traditions, seen in its
+                                        museums, local markets, and Emirati cuisine. With world-class shopping,
+                                        thrilling desert safaris, and unparalleled hospitality, Dubai promises an
+                                        unforgettable journey.<br><br>
+
+                                        <b>1.Explore iconic attractions like the Burj Khalifa, Dubai Mall, and Desert
+                                            Safari.</b> <br>
+                                        <b id="singapore">2.Indulge in diverse experiences, from luxury shopping to authentic Emirati
+                                            cuisine.</b> <br>
+
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+
+            <div id="accordion">
+                <div class="card">
+                    <div class="card-header bg-dark">
+                        <a class="card-link" data-toggle="collapse" href="#collapsefour">
+                            <h4 id="Swimming">7. <u>Singapore</u></h4>
+                        </a>
+                    </div>
+                    <div id="collapsefour" class="collapse show" data-parent="#accordion">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                                    <img id="img" src="images/corsingapore.jpg" class="img-thumbnail img-fluid"
+                                        height="200" width="580">
+                                    <br> <br>
+
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                    (125 Reviews)
+
+
+                                    <h2>starting from</h2>
+                                    <h4>96,999/-</h4>
+
+                                    <button type="button" class="btn btn"style="background-color: rgb(0, 0, 100); color: white;">Book Now</button> <br>
+
+                                    <a href="#">Sign In for Member Price</a>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                                    <p style="font-size: 18px; line-height: 27px; text-align:justify;"><b>-</b>
+                                        Singapore is a vibrant city-state known for its stunning skyline, lush green
+                                        spaces, and diverse culture. Iconic landmarks like Marina Bay Sands and Gardens
+                                        by the Bay showcase its modern charm, while areas like Chinatown and Little
+                                        India offer glimpses of its rich heritage.
+                                        <br><br>
+
+                                        <b>-</b>A food lover’s paradise, Singapore is famous for its hawker centers,
+                                        serving dishes like Hainanese chicken rice and chili crab. With clean streets,
+                                        efficient transport, and a mix of natural and urban attractions, Singapore
+                                        offers a seamless and unforgettable travel experience. <br><br>
+
+                                        <b>1.Visit must-see spots like Gardens by the Bay, Sentosa Island, and Singapore
+                                            Zoo.</b> <br>
+                                        <b>2.Savor delicious street food at world-famous hawker centers.</b> <br>
+
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+    </div>
+    </div>
+    </section><br>
+
+    <footer>
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                <h4>@ 2024 Travellex Agency. All Copy Rights Reserved. </h4>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+</body>
+
+</html>

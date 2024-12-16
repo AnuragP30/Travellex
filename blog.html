@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travellex </title>
+
+  <link rel="shortcut icon" href="trav.png" type="image/x-icon">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+    crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+    integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
+    crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="main.css">
+
+</head>
+
+<body>
+
+  <header>
+    <div class="container">
+      <div class="row">
+        <div class="col-5 col-sm-5 col-md-6 col-lg-6 col-xl-6">
+          <img src="images/trav.png" class="img-fluid mx-auto" style="height:120px; width: 120px; margin-left: 100px;">
+        </div>
+
+        <div class="col-7 col-sm-7 col-md-6 col-lg-6 col-xl-6">
+          <form class="form-inline" style="margin-top: 35px; margin-left: -20px;">
+            <div class="input-group">
+              <input class="form-control custom-input" type="text" placeholder="Search....">
+              <button type="button" class="btn btn-success suc-input">Search</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+  <nav class="navbar navbar-expand-md  navbar-dark sticky-top" style="background-color: rgb(0, 0, 75);">
+    <div class="container-fluid">
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav mx-auto">
+
+
+          <li class="nav-item"><a class="nav-link" href="index.html"
+              style="width: 110px; text-align: center; color: white;">Home</a></li>
+
+          <li class="nav-item"><a class="nav-link" href="destination.html"
+              style="width: 160px; text-align: center; color: white;">Destinations</a></li>
+
+          <li class="nav-item"><a class="nav-link" href="tour.html"
+              style="width: 160px; text-align: center; color: white;">Tour Packages</a></li>
+
+          <li class="nav-item active" style="border-bottom: 3px solid #ffffff; font-size: 17px;"><a class="nav-link"
+              href="blog.html" style="width: 110px; text-align: center; color: white;">Travel Blogs</a></li>
+
+          <li class="nav-item"><a class="nav-link" href="Contact.html"
+              style="width: 110px; text-align: center; color: white;">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container-fluid">
+    <div class="container-fluid">
+      <div class="image-container">
+        <img src="blog/b.jpg" alt="A description of the image">
+        <div class="text-overlay">
+          <h>Travel Stories</h>
+          <p class="para">Travel stories capture unforgettable experiences, cultural encounters, scenic
+            landscapes, and personal adventures that inspire exploration and connection around the world.</p>
+        </div>
+        <a href="blog.html#blogsss"><button type="button" class="btn btn-primary butty">Read More</button></a>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row mx-3"> <!-- Adds horizontal margin to the row -->
+        <div class="col-md-3 mb-4"> <!-- Adds vertical margin between cards -->
+          <div class="card" style="width: 18rem;">
+            <img src="blog/active.jpg" class="card-img-top" alt="img">
+            <div class="card-body">
+              <h4>Active Travel</h4>
+              <p class="card-text">Engage in active travel by exploring destinations through hiking, biking, and outdoor
+                adventures.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-4">
+          <div class="card" style="width: 18rem;">
+            <img src="blog/food.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h4>Food & Drinks</h4>
+              <p class="card-text">Discover and enjoy local cuisines and drinks to enhance your travel experiences.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-4">
+          <div class="card" style="width: 18rem;">
+            <img src="blog/guides.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h4>Guides</h4>
+              <p class="card-text">Guides provide essential tips and insights for navigating destinations, enhancing
+                travel experiences.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-4">
+          <div class="card" style="width: 18rem;">
+            <img src="blog/vir.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h4>Virtual Travel Experience</h4>
+              <p class="card-text">Virtual travel experiences allow you to explore destinations and cultures from home
+                online.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <p>Active travel, food and drinks, and guides together create a holistic way to explore the world. Active travel
+      allows you to immerse yourself in the beauty of a destination—whether it’s hiking through rugged mountain trails,
+      cycling along scenic coastal paths, or kayaking in crystal-clear waters. These adventures are enriched by
+      indulging in local food and drinks that offer a taste of the culture and traditions. Savoring authentic dishes at
+      a street-side market or toasting with a regional wine completes the sensory experience, making every moment more
+      memorable. In today’s digital age, virtual travel experiences are a perfect complement to physical exploration.
+      Whether you're planning your next active trip or learning about a region's culinary delights, virtual tours and
+      interactive guides offer a gateway to discover the world from home. Imagine walking through ancient ruins,
+      attending a live cooking class, or experiencing a bustling market—all virtually.</p>
+
+    <p> These digital adventures, combined with on-the-ground travel, provide a well-rounded perspective, ensuring you
+      uncover the essence of a destination in every possible way. Active travel, local food and drinks, and modern
+      virtual experiences together offer a dynamic way to explore the world.
+    <div id="blogsss"></div> Whether hiking through lush trails, savoring regional cuisines, or immersing in virtual
+    tours, each aspect enriches the journey. Active adventures connect you with nature, while authentic meals and drinks
+    reveal a destination’s culture. Virtual experiences add depth, allowing you to explore distant places and plan
+    future trips with ease.</p> <br>
+
+  </div>
+
+
+
+
+
+
+  <div class="container">
+
+    <div id="Tours">
+      <div class="row">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+          <h1 style="text-align: center;" id="hima">Discover Our Latest Blog Updates...</h1><br>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+
+          <div data-aos="fade-right">
+            <div class="card mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <br>
+                  <img src="blog/carditaly2.jpg" class="img-fluid rounded-start" alt="img"> <br> <br>
+                  <img src="blog/carditaly.jpeg" class="img-fluid rounded-start" alt="img">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Making my Dream a Reality: My Trip to Italy</h5>
+                    <p class="card-text">
+                      Discover how Under30Experiences made my dream trip to Italy a reality. Read more on our travel blog and start planning today!
+                    </p>
+                    <p class="card-text">
+                      <small class="text-body-secondary">Last updated 1 mins ago</small>
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+
+          <div data-aos="fade-left">
+            <div class="card mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  
+                  <img src="blog/cardcosta2.jpeg" class="img-fluid rounded-start" alt="img"> <br> <br>
+                  <img src="blog/cardcosts1.jpeg" class="img-fluid rounded-start" alt="img">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Is Costa Rica Safe Right Now? A Traveler's Guide</h5>
+                    <p class="card-text">
+                      Worried about safety in Costa Rica? Our expert tips on Costa Rica travel safety will help you travel the country with confidence.
+                    </p>
+                    <p class="card-text">
+                      <small class="text-body-secondary">Last updated 3 mins ago</small>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <br>
+
+    <!-- 2nd row  -->
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+
+          <div data-aos="fade-right">
+            <div class="card mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  
+                  <img src="blog/cardfree1.jpeg" class="img-fluid rounded-start" alt="img"> <br> <br>
+              
+                  <img src="blog/cardfree2.jpeg" class="img-fluid rounded-start" alt="img">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">How to Book a Free Airline Stopover</h5>
+                    <p class="card-text">
+                      Here is how to book a free stopover. Also known as Stopover Paid by the Carrier or SPTC, exit the airport during an extended layover, and explore!
+                    </p>
+                    <p class="card-text">
+                      <small class="text-body-secondary">Last updated 5 mins ago</small>
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+
+          <div data-aos="fade-left">
+            <div class="card mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  
+                  <img src="blog/cardcity1.jpg" class="img-fluid rounded-start" alt="img"> <br> <br>
+                  <img src="blog/cardcity2.jpeg" class="img-fluid rounded-start" alt="img">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Chefchaouen Morocco’s Blue City</h5>
+                    <p class="card-text">
+                      Explore the enchanting beauty of Chefchaouen, Morocco’s Blue City. Join Under30Experiences for a captivating tour of Chefchaouen. Book your adventure now!
+                    </p>
+                    <p class="card-text">
+                      <small class="text-body-secondary">Last updated  15 mins ago</small>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <br>
+
+    <!-- 3rd row  -->
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+
+          <div data-aos="fade-right">
+            <div class="card mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <br>
+                  <img src="blog/cardfood1.jpg" class="img-fluid rounded-start" alt="img"> <br> <br>
+                  <img src="blog/cardfood2.jpeg" class="img-fluid rounded-start" alt="img">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Pintxo Culture: Pamplona and San Sebastián Edition</h5>
+                    <p class="card-text">
+                      A little bit about Spain's pintxo culture and how to navigate the pintxo scene in Pamplona and San Sebastian.
+                    </p>
+                    <p class="card-text">
+                      <small class="text-body-secondary">Last updated 20 mins ago</small>
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+
+          <div data-aos="fade-left">
+            <div class="card mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <br>
+                  <img src="blog/cardmos2.jpg" class="img-fluid rounded-start" alt="img"> <br> <br>
+                  <img src="blog/cardmos1.jpeg" class="img-fluid rounded-start" alt="img">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Top 5 Things to do in Bryson City, North Carolina</h5>
+                    <p class="card-text">
+                      After a visit to Asheville, North Carolina, make your way through Great Smoky Mountains National Park to the little mountain town of Bryson City.
+                    </p>
+                    <p class="card-text">
+                      <small class="text-body-secondary">Last updated 35 mins ago</small>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <footer class="fot-er">
+    <div class="row">
+      <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+        <h4>@ 2024 Travellex Agency. All Copy Rights Reserved. </h4>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+<head>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</head>
+
+</html>
